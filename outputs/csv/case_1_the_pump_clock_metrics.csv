@@ -1,3 +1,0 @@
-name,policy,status,final_height,max_height,height_efficiency,initial_energy,final_energy,energy_used,energy_efficiency,total_steps,total_cost,path_length,success,time_to_top
-Greedy,greedy,Climbing,12,39,0.3077,150.0000,50.0000,100.0000,0.1200,80,100.0000,81,False,
-Prudent,prudent,Topped Out,39,39,1.0000,150.0000,67.7068,82.2932,0.4739,39,82.2932,40,True,39.0000
