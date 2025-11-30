@@ -219,14 +219,6 @@ Each scenario tests a different aspect of decision-making:
 
 ---
 
-## Why "adimanusia"?
-
-*Adi* (Sanskrit/Indonesian): first, supreme, original  
-*Manusia* (Indonesian): human
-
-"The first human"—or perhaps, "the essential human problem": how do we make decisions when we can't see the whole picture?
-
----
 
 ## The Deeper Question
 
@@ -236,8 +228,6 @@ The Greedy climber isn't stupid—grabbing good holds is rational. But rationali
 
 In climbing, this is called "reading the route." In life, it's called wisdom.
 
-> *"The man who moves a mountain begins by carrying away small stones."*  
-> — Friedrich Nietzsche
 
 ---
 
