@@ -1,0 +1,32 @@
+# Case 1: The Pump Clock
+# A 40m endurance route testing energy management
+# Left line: Easy start but pumps out
+# Right line: Sustained but paced with rests
+
+scenario_name = Case 1 - The Pump Clock
+scenario_type = pump_clock
+grade = 5.11c
+
+# Wall parameters
+wall_height = 40
+wall_width = 20
+base_terrain = 0.35
+
+# Simulation parameters
+max_steps = 80
+seed = 42
+
+# Output options
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 12
+animation_dpi = 100
+
+[agents]
+# name, energy, policy, lookahead, alpha, beta
+# Both agents have EQUAL energy (150 units)
+Greedy, 150, greedy, 1, 0.5, 0.0
+Prudent, 150, prudent, 5, 0.6, 0.4

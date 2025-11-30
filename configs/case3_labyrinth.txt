@@ -1,0 +1,33 @@
+# Case 3: The Labyrinth
+# Complex route-finding puzzle with dead ends
+# Multiple trap lines that look inviting
+# One true path through the maze
+# Tests route-reading ability over raw strength
+
+scenario_name = Case 3 - The Labyrinth
+scenario_type = labyrinth
+grade = 5.11b
+
+# Wall parameters
+wall_height = 40
+wall_width = 20
+base_terrain = 0.0
+
+# Simulation parameters
+max_steps = 100
+seed = 456
+
+# Output options
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 12
+animation_dpi = 100
+
+[agents]
+# name, energy, policy, lookahead, alpha, beta
+# Generous energy (200 units) - problem is route-finding, not endurance
+Greedy, 200, greedy, 1, 0.5, 0.0
+Prudent, 200, prudent, 6, 0.4, 0.6

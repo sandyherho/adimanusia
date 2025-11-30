@@ -1,0 +1,33 @@
+# Case 2: The Crux Roulette
+# Three different crux options at 60% height
+# Left: Single desperate move (high risk/reward)
+# Center: 5 sustained hard moves (medium risk)
+# Right: 8 "easy-looking" moves (actually the trap)
+
+scenario_name = Case 2 - The Crux Roulette
+scenario_type = crux_roulette
+grade = 5.12a
+
+# Wall parameters
+wall_height = 40
+wall_width = 20
+base_terrain = 0.35
+
+# Simulation parameters
+max_steps = 70
+seed = 123
+
+# Output options
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 12
+animation_dpi = 100
+
+[agents]
+# name, energy, policy, lookahead, alpha, beta
+# Equal energy (130 units) - tight budget forces hard choices
+Greedy, 130, greedy, 1, 0.5, 0.0
+Prudent, 130, prudent, 6, 0.5, 0.5

@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "adimanusia"
+version = "0.0.1"
+description = "Lattice Climbing Agent-Based Model with Movement Entropy Metrics"
+authors = ["Sandy H. S. Herho <sandy.herho@email.ucr.edu>", "Freden M. Sembiring-Milala"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "adimanusia", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = ">=1.20.0"
+scipy = ">=1.7.0"
+matplotlib = ">=3.3.0"
+netCDF4 = ">=1.5.0"
+tqdm = ">=4.60.0"
+pandas = ">=1.3.0"
+Pillow = ">=8.0.0"
+
+[tool.poetry.scripts]
+adimanusia = "adimanusia.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

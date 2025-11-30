@@ -1,0 +1,51 @@
+2025-11-29 19:52:03,999 - INFO - Simulation started: case_1_the_pump_clock
+2025-11-29 19:52:04,000 - INFO - Configuration:
+2025-11-29 19:52:04,000 - INFO -   scenario_name: Case 1 - The Pump Clock
+2025-11-29 19:52:04,000 - INFO -   scenario_type: pump_clock
+2025-11-29 19:52:04,000 - INFO -   grade: 5.11c
+2025-11-29 19:52:04,000 - INFO -   wall_height: 40
+2025-11-29 19:52:04,000 - INFO -   wall_width: 20
+2025-11-29 19:52:04,000 - INFO -   base_terrain: 0.35
+2025-11-29 19:52:04,000 - INFO -   max_steps: 80
+2025-11-29 19:52:04,000 - INFO -   seed: 42
+2025-11-29 19:52:04,000 - INFO -   n_cores: None
+2025-11-29 19:52:04,000 - INFO -   save_csv: True
+2025-11-29 19:52:04,000 - INFO -   save_netcdf: True
+2025-11-29 19:52:04,000 - INFO -   save_png: True
+2025-11-29 19:52:04,000 - INFO -   save_gif: True
+2025-11-29 19:52:04,000 - INFO -   output_dir: outputs
+2025-11-29 19:52:04,000 - INFO -   animation_fps: 12
+2025-11-29 19:52:04,000 - INFO -   animation_dpi: 100
+2025-11-29 19:52:04,163 - INFO - Results:
+2025-11-29 19:52:04,164 - INFO -   Greedy:
+2025-11-29 19:52:04,164 - INFO -     name: Greedy
+2025-11-29 19:52:04,164 - INFO -     policy: greedy
+2025-11-29 19:52:04,164 - INFO -     status: Climbing
+2025-11-29 19:52:04,164 - INFO -     final_height: 12
+2025-11-29 19:52:04,164 - INFO -     max_height: 39
+2025-11-29 19:52:04,164 - INFO -     height_efficiency: 0.3076923076923077
+2025-11-29 19:52:04,164 - INFO -     initial_energy: 150.0
+2025-11-29 19:52:04,164 - INFO -     final_energy: 50.0
+2025-11-29 19:52:04,164 - INFO -     energy_used: 100.0
+2025-11-29 19:52:04,164 - INFO -     energy_efficiency: 0.12
+2025-11-29 19:52:04,164 - INFO -     total_steps: 80
+2025-11-29 19:52:04,164 - INFO -     total_cost: 100.0
+2025-11-29 19:52:04,164 - INFO -     path_length: 81
+2025-11-29 19:52:04,164 - INFO -     success: False
+2025-11-29 19:52:04,164 - INFO -     time_to_top: None
+2025-11-29 19:52:04,165 - INFO -   Prudent:
+2025-11-29 19:52:04,165 - INFO -     name: Prudent
+2025-11-29 19:52:04,165 - INFO -     policy: prudent
+2025-11-29 19:52:04,165 - INFO -     status: Topped Out
+2025-11-29 19:52:04,165 - INFO -     final_height: 39
+2025-11-29 19:52:04,165 - INFO -     max_height: 39
+2025-11-29 19:52:04,165 - INFO -     height_efficiency: 1.0
+2025-11-29 19:52:04,165 - INFO -     initial_energy: 150.0
+2025-11-29 19:52:04,165 - INFO -     final_energy: 67.70684870684863
+2025-11-29 19:52:04,165 - INFO -     energy_used: 82.29315129315137
+2025-11-29 19:52:04,165 - INFO -     energy_efficiency: 0.47391550070881383
+2025-11-29 19:52:04,165 - INFO -     total_steps: 39
+2025-11-29 19:52:04,165 - INFO -     total_cost: 82.29315129315128
+2025-11-29 19:52:04,165 - INFO -     path_length: 40
+2025-11-29 19:52:04,165 - INFO -     success: True
+2025-11-29 19:52:04,165 - INFO -     time_to_top: 39
